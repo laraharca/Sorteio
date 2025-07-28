@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Inscrição</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="header">
+<div class="logo">
+  <img src="logo.png" alt="Logo da Âncora" />
+</div>
+
+    </div>
+    <h2>Participe do nosso sorteio!</h2>
+    <p>Receba as últimas notícias e atualizações</p>
+    
+    <form id="signup-form">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" name="sobrenome" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="123-456-7890" required>
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Inscreva-se</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
